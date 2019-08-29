@@ -7,4 +7,4 @@ const comic = document.getElementById("comic")
 const data = fetch(url).then(x => x.json()).then(y=> {
     comic.src = y.img
     console.log(y)
-})
+});
